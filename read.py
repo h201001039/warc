@@ -54,6 +54,6 @@ with open('/home/harsh/cc-mrjob/common-crawl/crawl-data/CC-MAIN-2014-35/segments
                 #f1=open(m.hexdigest(),'a')
                 f2[key]=pos
                 #print key,f2[key]
-        if f.tell() >10000:
-            break
+        #if f.tell() >10000:
+            #break
 
